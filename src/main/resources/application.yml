@@ -1,0 +1,5 @@
+#配置自定義接入Starter依賴所定義的zk地址及命名空間配置
+elasticjob:
+  zk:
+    serverLists: 10.211.55.12:2181,10.211.55.12:2182,10.211.55.12:2183
+    namespace: check-schedule
