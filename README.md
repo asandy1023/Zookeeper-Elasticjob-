@@ -33,7 +33,7 @@
 >```$tar -zxvf apache-zookeeper-3.7.1-bin.tar.gz -C /opt/zookeeper/node3```
 
 
-#### 2. 安裝 ZooKeeper 叢集 Job R1 Conso
+#### 2.設定 ZooKeeper 叢集
 
 為了保證 ZooKeeper 叢集節點選舉機制的正常運轉，1個 ZooKeeper 叢集 至少需要3個節點。如果條件有限，則可以透過在!台伺服器中同時執行3個節點來組建一個 ZooKeeper 叢集
 
