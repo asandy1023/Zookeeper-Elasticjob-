@@ -76,7 +76,8 @@
 
 Ubuntu server安裝JDK的命令
 
->```sudo apt-get install openjdk-8-jdk```
+>```
+>sudo apt-get install openjdk-8-jdk```
 
 
 #### 4. 執行 ZooKeeper 叢集
@@ -84,10 +85,10 @@ Ubuntu server安裝JDK的命令
 分別進入 ZooKeeper 安裝程式解壓縮目錄的"bin"目錄下,執行啟動 zookeeper 的指令稿。命令
 
 >```
-.$./nodel/apache-zookeeper-3.7.0-bin/bin/zkserver.sh start
+>.$./nodel/apache-zookeeper-3.7.0-bin/bin/zkserver.sh start
 >
 >Starting zookeeper... STARTED
->```
+
 
 執行成功後,可查看 ZooKeeper status,命令
 >```
@@ -102,7 +103,6 @@ Ubuntu server安裝JDK的命令
 >3./node3/apache-zookeeper-3.7.0-bin/bin/zkServer.sh status
 >
 >Mode: follower
->```
 
 如果讓集執行成功,一個為 leader 節點,剩下的為 follower 節點
 
